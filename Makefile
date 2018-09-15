@@ -1,3 +1,4 @@
+all: build-cuda build-c
 build-cuda:
 	nvcc vector-add-cuda.cu -o vector-add-cuda
 build-c:
